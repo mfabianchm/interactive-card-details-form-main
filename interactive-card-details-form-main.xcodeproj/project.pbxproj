@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		588807762B9B7AA7006B3E8F /* NameInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588807752B9B7AA7006B3E8F /* NameInput.swift */; };
 		589EB3B62B943B8B00AAF058 /* interactive_card_details_form_mainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589EB3B52B943B8B00AAF058 /* interactive_card_details_form_mainApp.swift */; };
 		589EB3B82B943B8B00AAF058 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589EB3B72B943B8B00AAF058 /* ContentView.swift */; };
 		589EB3BA2B943B8D00AAF058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589EB3B92B943B8D00AAF058 /* Assets.xcassets */; };
 		589EB3BD2B943B8D00AAF058 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589EB3BC2B943B8D00AAF058 /* Preview Assets.xcassets */; };
+		589EB3C42B943E2300AAF058 /* SpaceGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 589EB3C32B943E2200AAF058 /* SpaceGrotesk-Medium.ttf */; };
+		58FBDBD22B9F7D73009277D4 /* CardNumberInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBDBD12B9F7D73009277D4 /* CardNumberInput.swift */; };
+		58FBDBD42B9F845F009277D4 /* ExpDateInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBDBD32B9F845F009277D4 /* ExpDateInput.swift */; };
+		58FBDBD62B9F873F009277D4 /* CvcInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBDBD52B9F873F009277D4 /* CvcInput.swift */; };
+		58FBDBD82B9F8C43009277D4 /* SuccessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBDBD72B9F8C43009277D4 /* SuccessPage.swift */; };
+		58FBDBDA2BA01567009277D4 /* CardsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBDBD92BA01567009277D4 /* CardsMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		588807752B9B7AA7006B3E8F /* NameInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInput.swift; sourceTree = "<group>"; };
 		589EB3B22B943B8B00AAF058 /* interactive-card-details-form-main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "interactive-card-details-form-main.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		589EB3B52B943B8B00AAF058 /* interactive_card_details_form_mainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interactive_card_details_form_mainApp.swift; sourceTree = "<group>"; };
 		589EB3B72B943B8B00AAF058 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		589EB3B92B943B8D00AAF058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		589EB3BC2B943B8D00AAF058 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		589EB3C32B943E2200AAF058 /* SpaceGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		589EB3C62B943E3B00AAF058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		58FBDBD12B9F7D73009277D4 /* CardNumberInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNumberInput.swift; sourceTree = "<group>"; };
+		58FBDBD32B9F845F009277D4 /* ExpDateInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpDateInput.swift; sourceTree = "<group>"; };
+		58FBDBD52B9F873F009277D4 /* CvcInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CvcInput.swift; sourceTree = "<group>"; };
+		58FBDBD72B9F8C43009277D4 /* SuccessPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPage.swift; sourceTree = "<group>"; };
+		58FBDBD92BA01567009277D4 /* CardsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +47,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		588807742B9B7A3A006B3E8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				588807752B9B7AA7006B3E8F /* NameInput.swift */,
+				58FBDBD12B9F7D73009277D4 /* CardNumberInput.swift */,
+				58FBDBD32B9F845F009277D4 /* ExpDateInput.swift */,
+				58FBDBD52B9F873F009277D4 /* CvcInput.swift */,
+				58FBDBD72B9F8C43009277D4 /* SuccessPage.swift */,
+				58FBDBD92BA01567009277D4 /* CardsMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		589EB3A92B943B8B00AAF058 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +79,9 @@
 		589EB3B42B943B8B00AAF058 /* interactive-card-details-form-main */ = {
 			isa = PBXGroup;
 			children = (
+				589EB3C62B943E3B00AAF058 /* Info.plist */,
+				588807742B9B7A3A006B3E8F /* Views */,
+				589EB3C52B943E2A00AAF058 /* Fonts */,
 				589EB3B52B943B8B00AAF058 /* interactive_card_details_form_mainApp.swift */,
 				589EB3B72B943B8B00AAF058 /* ContentView.swift */,
 				589EB3B92B943B8D00AAF058 /* Assets.xcassets */,
@@ -65,6 +96,14 @@
 				589EB3BC2B943B8D00AAF058 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		589EB3C52B943E2A00AAF058 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				589EB3C32B943E2200AAF058 /* SpaceGrotesk-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +166,7 @@
 			files = (
 				589EB3BD2B943B8D00AAF058 /* Preview Assets.xcassets in Resources */,
 				589EB3BA2B943B8D00AAF058 /* Assets.xcassets in Resources */,
+				589EB3C42B943E2300AAF058 /* SpaceGrotesk-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588807762B9B7AA7006B3E8F /* NameInput.swift in Sources */,
 				589EB3B82B943B8B00AAF058 /* ContentView.swift in Sources */,
+				58FBDBD82B9F8C43009277D4 /* SuccessPage.swift in Sources */,
+				58FBDBDA2BA01567009277D4 /* CardsMainView.swift in Sources */,
 				589EB3B62B943B8B00AAF058 /* interactive_card_details_form_mainApp.swift in Sources */,
+				58FBDBD62B9F873F009277D4 /* CvcInput.swift in Sources */,
+				58FBDBD42B9F845F009277D4 /* ExpDateInput.swift in Sources */,
+				58FBDBD22B9F7D73009277D4 /* CardNumberInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +316,7 @@
 				DEVELOPMENT_TEAM = H5MNUSUD85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "interactive-card-details-form-main/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +346,7 @@
 				DEVELOPMENT_TEAM = H5MNUSUD85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "interactive-card-details-form-main/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
